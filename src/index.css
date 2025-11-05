@@ -35,14 +35,18 @@
   --bgFixed: #1f0604;
 
   --white: #fff7f0;
-  --white-70: #fff7f0b3;
-  --white-30: #fff7f04d;
+  --white-70a: #fff7f0b3;
+  --white-30a: #fff7f04d;
   --white-10a: #fff7f01a;
   --white-6a: #fff7f00f;
 
   --border2: #4c3633;
   --warning: #ff861f;
   --warning20a: #ff861f33;
+  ;
+
+  color: var(--white);
+  font-family: "Alexandria", sans-serif;
 }
 
 /* Light Mode */
@@ -76,3 +80,4 @@
 
   --border1: #3d2623;
 }
+
