@@ -1,49 +1,21 @@
 @import "tailwindcss";
 
-:root{
-
-/* Light Mode*/
---mainFixed: #FA2C23
---mainDynamic: #FA2C23
---bgMain: #FFF7F0
---bgMain0a: #FFF7F0
---bgSecond: #FEEAE4
---bgThird: #FFFFFF
---bgFixed: #1F0604
---textMain: #1F0604
---textMain10a: #1F0604
---textSub: #968782
---white: #FFF7F0
---white70a: #FFF7F0  
---white30a: #FFF7F0
---white10a: #FFF7F0
---white6a: #FFF7F0
---border1: #FCD0CB
---border2: #4C3633
---warning: #FF861F
---warning20a: #FF861F
-
-}
-
-
-@import "tailwindcss";
-
 :root {
-
+  /* Fixed Colors */
   --mainFixed: #fa2c23;
-
   --bgFixed: #1f0604;
 
+  /* White Variants */
   --white: #fff7f0;
   --white-70a: #fff7f0b3;
   --white-30a: #fff7f04d;
   --white-10a: #fff7f01a;
   --white-6a: #fff7f00f;
 
+  /* Other Colors */
   --border2: #4c3633;
   --warning: #ff861f;
   --warning20a: #ff861f33;
-  ;
 
   color: var(--white);
   font-family: "Alexandria", sans-serif;
@@ -65,7 +37,7 @@
   --border1: #fcd0cb;
 }
 
-/*  Dark Mode */
+/* Dark Mode */
 :root.darkMode {
   --mainDynamic: #1f0604;
 
@@ -79,5 +51,16 @@
   --textSub: #986872;
 
   --border1: #3d2623;
+}
+
+/* Custom Utilities */
+.hover-nav:hover {
+  background-color: var(--white-10a);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
