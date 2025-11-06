@@ -26,6 +26,7 @@
   --mainDynamic: #fa2c23;
 
   --bgMain: #fff7f0;
+  --bgMain-transparent: rgba(255, 247, 240, 0);
   --bgMain0a: #1f0604;
   --bgSecond: #feaea4;
   --bgThird: #ffffff;
@@ -42,6 +43,7 @@
   --mainDynamic: #1f0604;
 
   --bgMain: #1f0604;
+  --bgMain-transparent: rgba(31, 6, 4, 0);
   --bgMain0a: #fff7f0;
   --bgSecond: #2e1614;
   --bgThird: #1f0604;
